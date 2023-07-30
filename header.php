@@ -65,8 +65,7 @@ $tim = date("H:i:s");
           <p>Welcome To Hospital Management System</p>
         </div>
         <div class="col-sm-6">
-          <div class="social-icons"> <a href="https://www.facebook.com/helondrina/?locale=pt_BR"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/HELondrina"><i class="fa fa-twitter"></i></a> <a href="https://www.itsourcecode.com/"><i class="fa fa-dribbble"></i></a> <a href="https://www.linkedin.com/in/joken-villanueva-776b99157/"><i class="fa fa-linkedin"></i></a> <a href="https://www.youtube.com/c/JokenVillanueva?sub_confirmation=1"><i class="fa fa-youtube"></i></a> </div>
-        </div>
+          <div class="social-icons"> <a href="https://www.facebook.com/helondrina/?locale=pt_BR"><i class="fa fa-facebook"></i></a> <a href="https://www.einstein.br/Pages/Home.aspx"><i class="fa fa-dribbble"></i></a> </div>
       </div>
     </div>
   </div>
