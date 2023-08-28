@@ -144,7 +144,7 @@
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
                 data-scrolloffset="0"
-                style="z-index: 6; font-size:40px; color:#fff; font-weight:500; white-space: nowrap;"> Welcome To Our Research Center </div>
+                style="z-index: 6; font-size:40px; color:#fff; font-weight:500; white-space: nowrap;"> Bem-vindo ao nosso centro de pesquisa </div>
             
             <!-- LAYER NR. 3 -->
             <div class="tp-caption sfb tp-resizeme text-center" 
@@ -157,8 +157,8 @@
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
                 data-scrolloffset="0"
-                style="z-index: 7; font-size:20px; font-weight:500; line-height:26px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">We work in a friendly and efficient using the latest <br>
-              technologies and sharing our expertise.</div>
+                style="z-index: 7; font-size:20px; font-weight:500; line-height:26px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">Trabalhamos de forma amigável e eficiente utilizando os mais recentes <br>
+                tecnologias e compartilhando nossa experiência.</div>
           </li>
         </ul>
       </div>
@@ -177,24 +177,24 @@
             <!-- Intro Detail -->
             <div class="col-md-8">
               <div class="text-sec">
-                <h5>Health Check Up At Hospital Management System</h5>
-                <p>Labaid Diagnostic Centre, in addition to providing world-class clinical lab services, it has a pool of specialists from various medical specialties who serve suffering patients as outpatients. They are all well-known and well-respected in their medical fields for excellent clinical management.</p>
+                <h5>Check-up de saúde no Hospital Management System</h5>
+                <p>O Centro de Diagnóstico Labaid, além de fornecer serviços de laboratório clínico de classe mundial, conta com um conjunto de especialistas de diversas especialidades médicas que atendem pacientes em sofrimento em regime ambulatorial. Eles são todos bem conhecidos e respeitados em suas áreas médicas pelo excelente gerenciamento clínico.</p>
                 <ul class="row">
                   <li class="col-sm-6">
-                    <h6> <i class="lnr  lnr-checkmark-circle"></i> EMERGENCY CASE</h6>
-                    <p>HMS provide reliable communications and improve public safety areas. </p>
+                    <h6> <i class="lnr  lnr-checkmark-circle"></i> Casos de Emergência</h6>
+                    <p>HMS fornecer comunicações confiáveis e melhorar as áreas de segurança pública. </p>
                   </li>
                   <li class="col-sm-6">
-                    <h6> <i class="lnr  lnr-checkmark-circle"></i> QUALIFIED DOCTORS</h6>
-                    <p>Hopital Management System has licensed and qualified doctors! </p>
+                    <h6> <i class="lnr  lnr-checkmark-circle"></i> Médicos Qualificados</h6>
+                    <p>Hopital Management System tem médicos licenciados e qualificados! </p>
                   </li>
                   <li class="col-sm-6">
-                    <h6> <i class="lnr  lnr-checkmark-circle"></i> ONLINE APPOINTMENT</h6>
-                    <p>Hospital Management System Supports Online Appointment. Check the appointment tab above. </p>
+                    <h6> <i class="lnr  lnr-checkmark-circle"></i>Consultas Online</h6>
+                    <p>Hospital Management System Suporta consulta on-line. Verifique a guia de agendamento acima. </p>
                   </li>
                   <li class="col-sm-6">
-                    <h6> <i class="lnr  lnr-checkmark-circle"></i> FREE MEDICAL COUNSELING</h6>
-                    <p>HMS qualified doctors offers free counseling to their patients. </p>
+                    <h6> <i class="lnr  lnr-checkmark-circle"></i> Aconselhamento Médico Gratuito</h6>
+                    <p>HMS médicos qualificados oferecem aconselhamento gratuito aos seus pacientes. </p>
                   </li>
                 </ul>
               </div>
@@ -204,13 +204,13 @@
             <div class="col-md-4">
               <div class="timing"> <i class="lnr lnr-clock"></i>
                 <ul>
-                  <li> Monday <span>8.00 - 16.00</span></li>
-                  <li> Tuesday <span>8.00 - 16.00</span></li>
-                  <li> Wednesday <span>8.00 - 16.00</span></li>
-                  <li> Thursday <span>8.00 - 16.00</span></li>
-                  <li> Friday <span>8.00 - 16.00</span></li>
-                  <li> Saturday <span>8.00 - 16.00</span></li>
-                  <li> Sunday <span>8.00 - 16.00</span></li>
+                  <li> Segunda-feira <span>8.00 - 16.00</span></li>
+                  <li> Terça-Feira <span>8.00 - 16.00</span></li>
+                  <li> Quarta-feira <span>8.00 - 16.00</span></li>
+                  <li> Quinta-feira <span>8.00 - 16.00</span></li>
+                  <li> Sexta-Feira <span>8.00 - 16.00</span></li>
+                  <li> Sábado <span>8.00 - 16.00</span></li>
+                  <li> Domingo <span>8.00 - 16.00</span></li>
                 </ul>
               </div>
             </div>
@@ -228,9 +228,9 @@
         
         <!-- Heading -->
         <div class="heading-block">
-          <h2>Our Services</h2>
+          <h2>Nossos Serviços</h2>
           <hr>
-          <span>At HMS, we are committed to providing comprehensive and exceptional healthcare services to our patients. Our team of dedicated professionals strives to make a positive impact on the lives of those we serve. With state-of-the-art facilities and a patient-centered approach, we offer a wide range of services designed to meet the diverse needs of our community.</span> </div>
+          <span>Na HMS, estamos comprometidos em fornecer serviços de saúde abrangentes e excepcionais aos nossos pacientes. Nossa equipe de profissionais dedicados se esforça para causar um impacto positivo na vida daqueles que servimos. Com instalações de última geração e uma abordagem centrada no paciente, oferecemos uma ampla gama de serviços projetados para atender às diversas necessidades de nossa comunidade.</span> </div>
         
         <!-- Services -->
         <div class="services">
@@ -241,8 +241,8 @@
               <article>
                 <div class="media-left"> <i class="flaticon-eye-2 icon"></i> </div>
                 <div class="media-body">
-                  <h6>Eye Specialist</h6>
-                  <p>Welcome to the Eye Care Center at HMS Our dedicated team of ophthalmologists and eye care specialists is committed to providing exceptional vision care and comprehensive services for all your eye health needs. We understand the importance of clear vision and its impact on your quality of life. With state-of-the-art technology and a patient-centered approach, we offer a range of specialized eye care services.</p>
+                  <h6>Oftalmologista</h6>
+                  <p>Bem-vindo ao Centro Oftalmológico do HMS. Nossa equipe dedicada de oftalmologistas e especialistas em oftalmologia está comprometida em fornecer cuidados oftalmológicos excepcionais e serviços abrangentes para todas as suas necessidades de saúde ocular. Compreendemos a importância de uma visão clara e seu impacto na sua qualidade de vida. Com tecnologia de ponta e uma abordagem centrada no paciente, oferecemos uma gama de serviços oftalmológicos especializados.</p>
                 </div>
               </article>
             </div>
@@ -252,8 +252,8 @@
               <article>
                 <div class="media-left"> <i class="flaticon-operating-room icon"></i> </div>
                 <div class="media-body">
-                  <h6>Operation Theater</h6>
-                  <p>Welcome to the state-of-the-art Operation Theatre at HMS. Our advanced surgical facilities are designed to provide a safe and sterile environment where highly skilled surgical teams perform a wide range of medical procedures with precision and care. We understand that surgical interventions are critical moments in our patients' lives, and we are dedicated to ensuring the highest standards of excellence and patient safety throughout the surgical journey.</p>
+                  <h6>Teatro de Operações</h6>
+                  <p>Bem-vindo ao Teatro de Operações de última geração do HMS. Nossas instalações cirúrgicas avançadas são projetadas para fornecer um ambiente seguro e estéril, onde equipes cirúrgicas altamente qualificadas realizam uma ampla variedade de procedimentos médicos com precisão e cuidado. Entendemos que as intervenções cirúrgicas são momentos críticos na vida dos nossos pacientes e nos dedicamos a garantir os mais altos padrões de excelência e segurança do paciente durante toda a jornada cirúrgica.</p>
                 </div>
               </article>
             </div>
@@ -263,8 +263,8 @@
               <article>
                 <div class="media-left"> <i class="flaticon-icu-monitor icon"></i> </div>
                 <div class="media-body">
-                  <h6>ICU Department</h6>
-                  <p>Welcome to the Intensive Care Unit (ICU) at HMS. Our ICU is a specialized department that provides critical medical care to patients facing life-threatening conditions. With a focus on constant monitoring, advanced medical technology, and a dedicated team of healthcare professionals, we are committed to delivering the highest level of intensive care for our patients and their families.</p>
+                  <h6>Departamento de UTI</h6>
+                  <p>Bem-vindo à Unidade de Terapia Intensiva (UTI) do HMS. Nossa UTI é um departamento especializado que fornece atendimento médico crítico a pacientes que enfrentam condições de risco de vida. Com foco no monitoramento constante, tecnologia médica avançada e uma equipe dedicada de profissionais de saúde, estamos comprometidos em oferecer o mais alto nível de cuidados intensivos para nossos pacientes e suas famílias..</p>
                 </div>
               </article>
             </div>
@@ -274,8 +274,8 @@
               <article>
                 <div class="media-left"> <i class="flaticon-doctor icon"></i> </div>
                 <div class="media-body">
-                  <h6>Qualified Doctors</h6>
-                  <p>At HMS, we take great pride in our team of highly qualified and experienced doctors who are dedicated to providing exceptional medical care to our patients. Our physicians are handpicked for their expertise, compassion, and commitment to patient well-being. When you entrust your health to us, you can rest assured that you are in the capable hands of some of the finest medical professionals in the field. Here are some key highlights of our qualified doctors.</p>
+                  <h6>Médicos Qualificados</h6>
+                  <p>Na HMS, temos muito orgulho de nossa equipe de médicos altamente qualificados e experientes, que se dedicam a fornecer atendimento médico excepcional aos nossos pacientes. Nossos médicos são escolhidos a dedo por sua experiência, compaixão e compromisso com o bem-estar do paciente. Ao confiar sua saúde a nós, você pode ter certeza de que está nas mãos competentes de alguns dos melhores profissionais médicos da área. Aqui estão alguns destaques importantes de nossos médicos qualificados.</p>
                 </div>
               </article>
             </div>
@@ -285,8 +285,8 @@
               <article>
                 <div class="media-left"> <i class="flaticon-heartbeat icon"></i> </div>
                 <div class="media-body">
-                  <h6>Heart Problems</h6>
-                  <p>Welcome to the Cardiology Department at HMS, a leading center for comprehensive heart care. We understand the critical importance of heart health and are committed to providing cutting-edge diagnostic and treatment services for patients with heart conditions. Our highly skilled and experienced team of cardiologists and cardiac specialists work tirelessly to ensure the best possible outcomes for our patients.</p>
+                  <h6>Problemas cardíacos</h6>
+                  <p>Bem-vindo ao Departamento de Cardiologia do HMS, um centro líder em cuidados cardíacos abrangentes. Compreendemos a importância crítica da saúde cardíaca e estamos comprometidos em fornecer serviços de diagnóstico e tratamento de ponta para pacientes com problemas cardíacos. Nossa equipe altamente qualificada e experiente de cardiologistas e especialistas em cardiologia trabalha incansavelmente para garantir os melhores resultados possíveis para nossos pacientes.</p>
                 </div>
               </article>
             </div>
@@ -296,7 +296,7 @@
               <article>
                 <div class="media-left"> <i class="flaticon-stomach-2 icon"></i> </div>
                 <div class="media-body">
-                  <h6>Stomach Problems</h6>
+                  <h6>Problemas de estômago</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </article>
@@ -314,9 +314,9 @@
         
         <!-- Heading -->
         <div class="heading-block">
-          <h2>Our Best Departments</h2>
+          <h2>Nossos Melhores Departamentos</h2>
           <hr>
-          <span>Welcome to the Gastroenterology Department at HMS, a leading center for comprehensive stomach and digestive health care. Our highly skilled team of gastroenterologists and digestive specialists is dedicated to diagnosing and treating a wide range of stomach problems and digestive disorders. We understand the impact that gastrointestinal issues can have on your overall well-being, and we are committed to providing the highest quality of care to improve your digestive health.</span> </div>
+          <span>Bem-vindo ao Departamento de Gastroenterologia do HMS, um centro líder em cuidados abrangentes de saúde gástrica e digestiva. Nossa equipe altamente qualificada de gastroenterologistas e especialistas digestivos se dedica a diagnosticar e tratar uma ampla gama de problemas estomacais e digestivos. Compreendemos o impacto que os problemas gastrointestinais podem ter no seu bem-estar geral e estamos empenhados em fornecer cuidados da mais alta qualidade para melhorar a sua saúde digestiva.</span> </div>
       </div>
       
       <!-- Department -->
@@ -327,11 +327,11 @@
             <div class="dep-sec-nav"> 
               <!-- Nav tabs -->
               <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation"><a href="#dental" role="tab" data-toggle="tab">Dental</a></li>
-                <li role="presentation" class="active"><a href="#cardiology" role="tab" data-toggle="tab">Cardiology </a></li>
-                <li role="presentation"><a href="#for-disabled" role="tab" data-toggle="tab">For disabled </a></li>
-                <li role="presentation"><a href="#ophthalmology" role="tab" data-toggle="tab">Ophthalmology </a></li>
-                <li role="presentation"><a href="#emergency" role="tab" data-toggle="tab"> Emergency </a></li>
+                <li role="presentation"><a href="#dental" role="tab" data-toggle="tab">Odonto</a></li>
+                <li role="presentation" class="active"><a href="#cardiology" role="tab" data-toggle="tab">Cardiologia </a></li>
+                <li role="presentation"><a href="#for-disabled" role="tab" data-toggle="tab">Para deficientes </a></li>
+                <li role="presentation"><a href="#ophthalmology" role="tab" data-toggle="tab">Oftalmologia </a></li>
+                <li role="presentation"><a href="#emergency" role="tab" data-toggle="tab"> Emergência </a></li>
               </ul>
             </div>
             
@@ -344,19 +344,19 @@
                 <div class="dep-sec-txt">
                   <div class="row">
                     <div class="col-md-7">
-                      <h5>Our Best <span>Dental</span> Services</h5>
+                      <h5>Nossos melhores <span>Serviços</span>Odontos</h5>
                       <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, <br>
                         <br>
                         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s PageMaker </p>
                       
                       <!-- List Style Check -->
                       <ul class="list-style-check">
-                        <li> Qualified Staff of Doctors </li>
-                        <li> Feel like you are at Home Services </li>
-                        <li> 24x7 Emergency Services </li>
-                        <li> Save your Money and Time with us </li>
-                        <li> Medicine Research </li>
-                        <li> Blood Bank </li>
+                        <li> Equipe qualificada de médicos </li>
+                        <li> Sinta-se como se estivesse em Home Services </li>
+                        <li> Serviços de emergência 24x7</li>
+                        <li> Economize seu dinheiro e tempo conosco </li>
+                        <li> Pesquisa em Medicina </li>
+                        <li> Banco de sangue </li>
                       </ul>
                     </div>
                     
@@ -364,7 +364,7 @@
                     <div class="col-md-offset-1 col-md-4">
                       <div class="doctor-img"> <img class="img-responsive" src="images/depart-doctor-img.png" alt="" >
                         <div class="name-doc">
-                          <h6>Prof. Radha Swaminathan <span>Cardiology Specialists</span></h6>
+                          <h6>Prof. Radha Swaminathan <span>Especialistas em Cardiologia</span></h6>
                         </div>
                       </div>
                     </div>
@@ -385,12 +385,12 @@
                       
                       <!-- List Style Check -->
                       <ul class="list-style-check">
-                        <li> Qualified Staff of Doctors </li>
-                        <li> Feel like you are at Home Services </li>
-                        <li> 24x7 Emergency Services </li>
-                        <li> Save your Money and Time with us </li>
-                        <li> Medicine Research </li>
-                        <li> Blood Bank </li>
+                      <li> Equipe qualificada de médicos </li>
+                        <li> Sinta-se como se estivesse em Home Services </li>
+                        <li> Serviços de emergência 24x7</li>
+                        <li> Economize seu dinheiro e tempo conosco </li>
+                        <li> Pesquisa em Medicina </li>
+                        <li> Banco de sangue </li>
                       </ul>
                     </div>
                     
@@ -398,7 +398,7 @@
                     <div class="col-md-offset-1 col-md-4">
                       <div class="doctor-img"> <img class="img-responsive" src="images/depart-doctor-img-2.png" alt="" >
                         <div class="name-doc">
-                          <h6>Prof. Nirupama Chakrabarti <span>Cardiology Specialists</span></h6>
+                          <h6>Prof. Nirupama Chakrabarti <span>Especialistas em Cardiologia</span></h6>
                         </div>
                       </div>
                     </div>
@@ -419,12 +419,12 @@
                       
                       <!-- List Style Check -->
                       <ul class="list-style-check">
-                        <li> Qualified Staff of Doctors </li>
-                        <li> Feel like you are at Home Services </li>
-                        <li> 24x7 Emergency Services </li>
-                        <li> Save your Money and Time with us </li>
-                        <li> Medicine Research </li>
-                        <li> Blood Bank </li>
+                      <li> Equipe qualificada de médicos </li>
+                        <li> Sinta-se como se estivesse em Home Services </li>
+                        <li> Serviços de emergência 24x7</li>
+                        <li> Economize seu dinheiro e tempo conosco </li>
+                        <li> Pesquisa em Medicina </li>
+                        <li> Banco de sangue </li>
                       </ul>
                     </div>
                     
@@ -432,7 +432,7 @@
                     <div class="col-md-offset-1 col-md-4">
                       <div class="doctor-img"> <img class="img-responsive" src="images/depart-doctor-img-3.png" alt="" >
                         <div class="name-doc">
-                          <h6>Prof. Dr. Indrajit Prashad <span>Cardiology Specialists</span></h6>
+                          <h6>Prof. Dr. Indrajit Prashad <span>Especialistas em Cardiologia</span></h6>
                         </div>
                       </div>
                     </div>
@@ -453,12 +453,12 @@
                       
                       <!-- List Style Check -->
                       <ul class="list-style-check">
-                        <li> Qualified Staff of Doctors </li>
-                        <li> Feel like you are at Home Services </li>
-                        <li> 24x7 Emergency Services </li>
-                        <li> Save your Money and Time with us </li>
-                        <li> Medicine Research </li>
-                        <li> Blood Bank </li>
+                      <li> Equipe qualificada de médicos </li>
+                        <li> Sinta-se como se estivesse em Home Services </li>
+                        <li> Serviços de emergência 24x7</li>
+                        <li> Economize seu dinheiro e tempo conosco </li>
+                        <li> Pesquisa em Medicina </li>
+                        <li> Banco de sangue </li>
                       </ul>
                     </div>
                     
@@ -466,7 +466,7 @@
                     <div class="col-md-offset-1 col-md-4">
                       <div class="doctor-img"> <img class="img-responsive" src="images/depart-doctor-img-4.png" alt="" >
                         <div class="name-doc">
-                          <h6>Prof. Aalia Oommen <br><span>Ophthalmology Specialists</span></h6>
+                          <h6>Prof. Aalia Oommen <br><span>Especialistas em Oftalmologia</span></h6>
                         </div>
                       </div>
                     </div>
@@ -487,12 +487,12 @@
                       
                       <!-- List Style Check -->
                       <ul class="list-style-check">
-                        <li> Qualified Staff of Doctors </li>
-                        <li> Feel like you are at Home Services </li>
-                        <li> 24x7 Emergency Services </li>
-                        <li> Save your Money and Time with us </li>
-                        <li> Medicine Research </li>
-                        <li> Blood Bank </li>
+                      <li> Equipe qualificada de médicos </li>
+                        <li> Sinta-se como se estivesse em Home Services </li>
+                        <li> Serviços de emergência 24x7</li>
+                        <li> Economize seu dinheiro e tempo conosco </li>
+                        <li> Pesquisa em Medicina </li>
+                        <li> Banco de sangue </li>
                       </ul>
                     </div>
                     
@@ -500,7 +500,7 @@
                     <div class="col-md-offset-1 col-md-4">
                       <div class="doctor-img"> <img class="img-responsive" src="images/depart-doctor-img-5.png" alt="" >
                         <div class="name-doc">
-                          <h6>Dr. Narendra Mehta<br><span>Emergency Specialists</span></h6>
+                          <h6>Dr. Narendra Mehta<br><span>Especialistas em Emergência</span></h6>
                         </div>
                       </div>
                     </div>

@@ -14,13 +14,13 @@ if(isset($_POST[submit]))
 <div class="wrapper col2">
   <div id="breadcrumb">
     <ul>
-      <li class="first">Contact Us</li>
+      <li class="first">Contate-nos</li>
     </ul>
   </div>
 </div>
 <div class="wrapper col4">
   <div id="container">
-    <h6>Our Address</h6>
+    <h6>Nosso Endereço</h6>
     <p>
 Online Hospital Management System , Brazil<br />
 
@@ -28,7 +28,7 @@ Online Hospital Management System , Brazil<br />
 
 <strong>Email ID</strong>: ohms@gmail.com</p>
 
-        <h6>Contact Us by entering following information</h6>
+        <h6>Contato-nos inserindo as seguintes informações:</h6>
             <form action="" method="post">
           <p>
             <input type="text" name="name" id="name" value="" size="22" />

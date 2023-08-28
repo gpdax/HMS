@@ -74,109 +74,109 @@ function validateform()
 {
 	if(document.frmbill.treatment.value == "")
 	{
-		alert("Treatment Type should not be empty..");
+		alert("O tipo de tratamento não deve estar vazio..");
 		document.frmbill.treatment.focus();
 		return false;
 	}
 	else if(!document.frmbill.treatment.value.match(alphaspaceExp))
 	{
-		alert("Treatment Type not valid..");
+		alert("Tipo de tratamento inválido..");
 		document.frmbill.treatment.focus();
 		return false;
 	}
 	else if(document.frmbill.date.value == "")
 	{
-		alert("Billing Date should not be empty..");
+		alert("A data de cobrança não deve estar vazia..");
 		document.frmbill.date.focus();
 		return false;
 	}
 	else if(document.frmbill.time.value == "")
 	{
-		alert("Billing Time should not be empty..");
+		alert("O tempo de cobrança não deve estar vazio..");
 		document.frmbill.time.focus();
 		return false;
 	}
 	else if(document.frmbill.amount.value == "")
 	{
-		alert("Amount should not be empty..");
+		alert("O valor não deve estar vazio..");
 		document.frmbill.amount.focus();
 		return false;
 	}
 	else if(!document.frmbill.amount.value.match(numericExpression))
 	{
-		alert("Amount not valid..");
+		alert("Valor não válido..");
 		document.frmbill.amount.focus();
 		return false;
 	}
 	else if(document.frmbill.discount.value == "")
 	{
-		alert("Discount should not be empty..");
+		alert("O desconto não deve estar vazio..");
 		document.frmbill.discount.focus();
 		return false;
 	}
 	else if(!document.frmbill.discount.value.match(numericExpression))
 	{
-		alert("Discount  not valid..");
+		alert("Desconto não válido..");
 		document.frmbill.discount.focus();
 		return false;
 	}
 	else if(document.frmbill.tax.value == "")
 	{
-		alert("Tax Amount should not be empty..");
+		alert("O valor do imposto não deve estar vazio..");
 		document.frmbill.tax.focus();
 		return false;
 	}
 	else if(!document.frmbill.tax.value.match(numericExpression))
 	{
-		alert("Tax Amount not valid..");
+		alert("Valor do imposto não válido..");
 		document.frmbill.tax.focus();
 		return false;
 	}
 	else if(document.frmbill.bill.value == "")
 	{
-		alert("Bill Amount should not be empty..");
+		alert("O valor da fatura não deve estar vazio..");
 		document.frmbill.bill.focus();
 		return false;
 	}
 	else if(!document.frmbill.bill.value.match(numericExpression))
 	{
-		alert("Bill Amount not valid..");
+		alert("Valor da fatura inválido..");
 		document.frmbill.bill.focus();
 		return false;
 	}
 	else if(document.frmbill.textarea.value == "")
 	{
-		alert("Discount Reason should not be empty..");
+		alert("O motivo do desconto não deve estar vazio..");
 		document.frmbill.textarea.focus();
 		return false;
 	}
 	else if(!document.frmbill.textarea.value.match(alphaspaceExp))
 	{
-		alert("Discount Reason  not valid..");
+		alert("Motivo do desconto não válido..");
 		document.frmbill.textarea.focus();
 		return false;
 	}
 	else if(document.frmbill.paid.value == "")
 	{
-		alert("Paid Amount should not be empty..");
+		alert("O valor pago não deve estar vazio..");
 		document.frmbill.paid.focus();
 		return false;
 	}
 	else if(!document.frmbill.paid.value.match(numericExpression))
 	{
-		alert("Paid Amount not valid..");
+		alert("Valor pago não válido..");
 		document.frmbill.paid.focus();
 		return false;
 	}
 	else if(document.frmbill.Dtime.value == "")
 	{
-		alert("Discharge Time should not be empty..");
+		alert("O tempo de alta não deve estar vazio..");
 		document.frmbill.Dtime.focus();
 		return false;
 	}
 	else if(document.frmbill.Ddate.value == "")
 	{
-		alert("Discharge Date should not be empty..");
+		alert("A data de alta não deve estar vazia..");
 		document.frmbill.Ddate.focus();
 		return false;
 	}

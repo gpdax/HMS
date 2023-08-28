@@ -44,17 +44,17 @@ if(isset($_GET[editid]))
 <div class="wrapper col2">
   <div id="breadcrumb">
     <ul>
-      <li class="first">Add New Order</li></ul>
+      <li class="first">Adicionar novo pedido</li></ul>
   </div>
 </div>
 <div class="wrapper col4">
   <div id="container">
-    <h1>Here you can order medicine's through online..</h1>
+    <h1>Aqui você pode encomendar remédios online..</h1>
       <form method="post" action="" name="frmorders" onSubmit="return validateform()">
     <table width="490" border="3">
       <tbody>
         <tr>
-          <td>Select Doctor</td>
+          <td>Selecione Médico</td>
           <td><select name="docid" id="docid">
             <option value="">Select</option>
             <?php

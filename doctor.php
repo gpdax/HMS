@@ -39,7 +39,7 @@ if(isset($_GET[editid]))
 
 <div class="container-fluid">
 	<div class="block-header">
-		<h2> Add New Doctor </h2>
+		<h2> Adicionar novo Doutor </h2>
 	</div>
 	<div class="row clearfix">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -50,21 +50,21 @@ if(isset($_GET[editid]))
 
 
 					
-					<div class="form-group"><label>Doctor Name</label> 
+					<div class="form-group"><label>Nome do Doutor</label> 
 					<div class="form-line">
 					<input class="form-control" type="text" name="doctorname" id="doctorname" value="<?php echo $rsedit[doctorname]; ?>" />
 				</div>
 				</div>
 
 
-					<div class="form-group"><label>Mobile Number</label> 
+					<div class="form-group"><label>Número do Telefone</label> 
 					<div class="form-line">
 					<input class="form-control" type="text" name="mobilenumber" id="mobilenumber" value="<?php echo $rsedit[mobileno]; ?>"/>
 				</div>
 				</div>
 
 
-					<div class="form-group"><label>Department</label> 
+					<div class="form-group"><label>Departamento</label> 
 						<div class="form-line">
 					<select  name="select3" id="select3" class="form-control show-tick">
 						<option value="">Select</option>
@@ -95,35 +95,35 @@ if(isset($_GET[editid]))
 				</div>
 
 
-					<div class="form-group"><label>Password</label> 
+					<div class="form-group"><label>Senha</label> 
 					<div class="form-line">
 					<input class="form-control" type="password" name="password" id="password" value="<?php echo $rsedit[password]; ?>"/>
 				</div>
 				</div>
 
 
-					<div class="form-group"><label>Confirm Password</label> 
+					<div class="form-group"><label>Confirmar Senha</label> 
 					<div class="form-line">
 					<input class="form-control" type="password" name="cnfirmpassword" id="cnfirmpassword" value="<?php echo $rsedit[password]; ?>"/>
 				</div>
 				</div>
 
 
-					<div class="form-group"><label>Education</label> 
+					<div class="form-group"><label>Educação</label> 
 					<div class="form-line">
 					<input class="form-control" type="text" name="education" id="education" value="<?php echo $rsedit[education]; ?>" />
 				</div>
 				</div>
 
 
-					<div class="form-group"><label>Experience</label> 
+					<div class="form-group"><label>Experiência</label> 
 					<div class="form-line">
 					<input class="form-control" type="text" name="experience" id="experience" value="<?php echo $rsedit[experience]; ?>"/>
 				</div>
 				</div>
 
 
-					<div class="form-group"><label>Consultancy Charge</label> 
+					<div class="form-group"><label>Valor da consulta</label> 
 					<div class="form-line">
 					<input class="form-control" type="text" name="consultancy_charge" id="consultancy_charge" value="<?php echo $rsedit[experience]; ?>"/>
 				</div>
@@ -177,91 +177,91 @@ function validateform()
 {
 	if(document.frmdoct.doctorname.value == "")
 	{
-		alert("Doctor name should not be empty..");
+		alert("O nome do médico não deve estar vazio..");
 		document.frmdoct.doctorname.focus();
 		return false;
 	}
 	else if(!document.frmdoct.doctorname.value.match(alphaspaceExp))
 	{
-		alert("Doctor name not valid..");
+		alert("Nome do médico inválido..");
 		document.frmdoct.doctorname.focus();
 		return false;
 	}
 	else if(document.frmdoct.mobilenumber.value == "")
 	{
-		alert("Mobile number should not be empty..");
+		alert("O número do celular não deve estar vazio..");
 		document.frmdoct.mobilenumber.focus();
 		return false;
 	}
 	else if(!document.frmdoct.mobilenumber.value.match(numericExpression))
 	{
-		alert("Mobile number not valid..");
+		alert("Número de celular inválido..");
 		document.frmdoct.mobilenumber.focus();
 		return false;
 	}
 	else if(document.frmdoct.select3.value == "")
 	{
-		alert("Department ID should not be empty..");
+		alert("O ID do departamento não deve estar vazio..");
 		document.frmdoct.select3.focus();
 		return false;
 	}
 	else if(document.frmdoct.loginid.value == "")
 	{
-		alert("loginid should not be empty..");
+		alert("loginid não deve estar vazio..");
 		document.frmdoct.loginid.focus();
 		return false;
 	}
 	else if(!document.frmdoct.loginid.value.match(alphanumericExp))
 	{
-		alert("loginid not valid..");
+		alert("ID de login não é válido..");
 		document.frmdoct.loginid.focus();
 		return false;
 	}
 	else if(document.frmdoct.password.value == "")
 	{
-		alert("Password should not be empty..");
+		alert("A senha não deve estar vazia..");
 		document.frmdoct.password.focus();
 		return false;
 	}
 	else if(document.frmdoct.password.value.length < 8)
 	{
-		alert("Password length should be more than 8 characters...");
+		alert("O comprimento da senha deve ter mais de 8 caracteres...");
 		document.frmdoct.password.focus();
 		return false;
 	}
 	else if(document.frmdoct.password.value != document.frmdoct.cnfirmpassword.value )
 	{
-		alert("Password and confirm password should be equal..");
+		alert("A senha e a senha de confirmação devem ser iguais..");
 		document.frmdoct.password.focus();
 		return false;
 	}
 	else if(document.frmdoct.education.value == "")
 	{
-		alert("Education should not be empty..");
+		alert("A educação não deve ser vazia..");
 		document.frmdoct.education.focus();
 		return false;
 	}
 	else if(!document.frmdoct.education.value.match(alphaExp))
 	{
-		alert("Education not valid..");
+		alert("Educação não válida..");
 		document.frmdoct.education.focus();
 		return false;
 	}
 	else if(document.frmdoct.experience.value == "")
 	{
-		alert("Experience should not be empty..");
+		alert("A experiência não deve ser vazia..");
 		document.frmdoct.experience.focus();
 		return false;
 	}
 	else if(!document.frmdoct.experience.value.match(numericExpression))
 	{
-		alert("Experience not valid..");
+		alert("Experiência não válida..");
 		document.frmdoct.experience.focus();
 		return false;
 	}
 	else if(document.frmdoct.select.value == "" )
 	{
-		alert("Kindly select the status..");
+		alert("Selecione o status..");
 		document.frmdoct.select.focus();
 		return false;
 	}

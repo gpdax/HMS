@@ -49,15 +49,15 @@ if(isset($_GET[editid]))
     <table class="table table-hover">
       <tbody>
         <tr>
-          <td width="34%">Medicine Name</td>
+          <td width="34%">Nome do Medicamento</td>
           <td width="66%"><input placeholder="Enter Here" class="form-control" type="text" name="medicinename" id="medicinename" value="<?php echo $rsedit[medicinename]; ?>" /></td>
         </tr>
         <tr>
-          <td width="34%">Medicine cost</td>
+          <td width="34%">Valor do Medicamento</td>
           <td width="66%"><input placeholder="Enter Here" class="form-control" type="text" name="medicinecost" id="medicinecost" value="<?php echo $rsedit[medicinecost]; ?>" /></td>
         </tr>
         <tr>
-          <td>Description</td>
+          <td>Descrição</td>
           <td><textarea placeholder="Enter Here" class="form-control no-resize" name="description" id="description" cols="45" rows="5"><?php echo $rsedit[description] ; ?></textarea></td>
         </tr>
         <tr>

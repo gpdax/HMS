@@ -14,7 +14,7 @@ if(isset($_GET[delid]))
 ?>
 <div class="container-fluid">
 	<div class="block-header">
-		<h2>View Doctor consultancy charges</h2>
+		<h2>Ver valor da consulta médica</h2>
 
 	</div>
 
@@ -24,9 +24,9 @@ if(isset($_GET[delid]))
 		<table class="table table-bordered table-striped table-hover js-exportable dataTable" >
 			<thead>
 				<tr>
-					<th width="97" scope="col">Date</th>
-					<th width="245" scope="col">Decription</th>
-					<th width="86" scope="col">Bill Amount</th>
+					<th width="97" scope="col">Data</th>
+					<th width="245" scope="col">Descrição</th>
+					<th width="86" scope="col">Montante de Dinheiro</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -101,7 +101,7 @@ if(isset($_GET[delid]))
 			<tfoot>
 				<tr>
 					<td></td>
-					<td>Total Earnings :</td>
+					<td>Ganhos total :</td>
 					<td>₱ <?php echo ($billamt + $taxamt)  - $rsbilling_records[discount] ; ?></td>
 				</tr>
 			</tfoot>

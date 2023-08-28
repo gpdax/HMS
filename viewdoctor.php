@@ -13,7 +13,7 @@ if(isset($_GET[delid]))
 ?>
 <div class="container-fluid">
 	<div class="block-header">
-		<h2>View  Doctor</h2>
+		<h2>Ver Médico</h2>
 
 	</div>
 
@@ -23,15 +23,15 @@ if(isset($_GET[delid]))
 		<table class="table table-bordered table-striped table-hover js-basic-example dataTable">
 			<thead>
 				<tr>
-					<td>Doctor Name</td>
-					<td>Mobile Number</td>
-					<td>Department</td>
+					<td>Nome do Médico</td>
+					<td>Número de telefone</td>
+					<td>Departamento</td>
 					<td>Login ID</td>
-					<td>Consultancy Charge</td>
-					<td>Education</td>
-					<td>Experience</td>
+					<td>Valor das Consultas</td>
+					<td>Educação</td>
+					<td>Experiência</td>
 					<td>Status</td>
-					<td>Action</td>
+					<td>Ação</td>
 				</tr>
 			</thead>
 			<tbody>

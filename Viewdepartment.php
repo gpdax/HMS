@@ -21,7 +21,7 @@ if(isset($_GET[delid]))
 
 <div class="container-fluid">
   <div class="block-header">
-    <h2>View department record</h2>
+    <h2>Ver registro do Departamento</h2>
     
   </div>
   <div class="card">
@@ -30,14 +30,14 @@ if(isset($_GET[delid]))
      <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
       <tbody>
         <tr>
-          <td><strong>Department Name</strong></td>
-          <td><strong>Department Description</strong></td>          
+          <td><strong>Nome do Departamento</strong></td>
+          <td><strong>Descrição do Departamento</strong></td>          
           <td><strong>Status</strong></td>
           <?php
           if(isset($_SESSION[adminid]))
           {
             ?>
-            <td><strong>Action</strong></td>
+            <td><strong>Ação</strong></td>
             <?php
           }
           ?>

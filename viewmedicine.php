@@ -13,7 +13,7 @@ if(isset($_GET[delid]))
 ?>
 <div class="container-fluid">
   <div class="block-header">
-    <h2>View  medicine list</h2>
+    <h2>Ver lista de Medicamentos</h2>
 
   </div>
 </div>
@@ -24,11 +24,11 @@ if(isset($_GET[delid]))
 
           <thead>
             <tr>
-              <th>Medicine name</th>
-              <th>Medicine cost</th>
-              <th>description</th>
+              <th>Nome do Medicamento</th>
+              <th>Valor do Medicamento</th>
+              <th>Descrição</th>
               <th>Status</th>
-              <th>Action</th>
+              <th>Ação</th>
             </tr>
           </thead> 
           <tbody>

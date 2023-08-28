@@ -15,21 +15,21 @@ if(isset($_GET[delid]))
 <div class="wrapper col2">
   <div id="breadcrumb">
     <ul>
-      <li class="first">View Prescription Record</li></ul>
+      <li class="first">Ver registro de Prescrição</li></ul>
   </div>
 </div>
 <div class="wrapper col4">
   <div id="container">
-    <h1>View Prescription record</h1>
+    <h1>Ver registro de Prescrição</h1>
     <table width="200" border="3">
       <tbody>
         <tr>
-          <td>Medicine</td>
-          <td>Cost</td>
-          <td>Unit</td>
-          <td>Dosage</td>
+          <td>Medicamento</td>
+          <td>Valor</td>
+          <td>Unidade</td>
+          <td>Dosagem</td>
           <td>Status</td>
-          <td>Action</td>
+          <td>Ação</td>
         </tr>
          <?php
 		$sql ="SELECT * FROM prescription_records";

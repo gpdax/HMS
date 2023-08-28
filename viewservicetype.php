@@ -14,12 +14,12 @@ if(isset($_GET[delid]))
 <div class="wrapper col2">
   <div id="breadcrumb">
     <ul>
-      <li class="first">View  service type</li></ul>
+      <li class="first">Ver tipo de Serviço</li></ul>
   </div>
 </div>
 <div class="wrapper col4">
   <div id="container">
-    <h1>View Service type record</h1>
+    <h1>Ver registro do tipo de serviço</h1>
     <table width="200" border="3">
       <tbody>
         <tr>

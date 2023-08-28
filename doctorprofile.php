@@ -39,7 +39,7 @@ if(isset($_SESSION[doctorid]))
 ?>
 <div class="container-fluid">
     <div class="block-header">
-        <h2> Doctor's Profile</h2>
+        <h2> Perfil do Médico</h2>
     </div>
     <div class="row clearfix">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -49,7 +49,7 @@ if(isset($_SESSION[doctorid]))
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div class="form-group">
-                                <label>Doctor Name</label>
+                                <label>Nome do Médico</label>
                                 <div class="form-line">
                                     <input class="form-control" type="text" name="doctorname" id="doctorname"
                                         value="<?php echo $rsedit[doctorname]; ?>" />
@@ -58,7 +58,7 @@ if(isset($_SESSION[doctorid]))
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="form-group">
-                                <label>Mobile Number</label>
+                                <label>Número do Telefone</label>
                                 <div class="form-line">
                                     <input class="form-control" type="text" name="mobilenumber" id="mobilenumber"
                                         value="<?php echo $rsedit[mobileno]; ?>" />
@@ -67,7 +67,7 @@ if(isset($_SESSION[doctorid]))
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="form-group">
-                                <label>Department</label>
+                                <label>Departamento</label>
                                 <div class="form-line">
                                     <select name="select3" id="select3" class="form-control show-tick">
                                         <option value="">Select</option>
@@ -104,7 +104,7 @@ if(isset($_SESSION[doctorid]))
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="form-group">
-                                <label>Education</label>
+                                <label>Educação</label>
                                 <div class="form-line">
                                     <input class="form-control" type="text" name="education" id="education"
                                         value="<?php echo $rsedit[education]; ?>" />
@@ -113,7 +113,7 @@ if(isset($_SESSION[doctorid]))
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="form-group">
-                                <label>Experience</label>
+                                <label>Experiência</label>
                                 <div class="form-line">
                                     <input class="form-control" type="text" name="experience" id="experience"
                                         value="<?php echo $rsedit[experience]; ?>" />
@@ -122,7 +122,7 @@ if(isset($_SESSION[doctorid]))
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="form-group">
-                                <label>Consultancy charge</label>
+                                <label>Valor da Consulta</label>
                                 <div class="form-line">
 
                                     <input class="form-control" type="text" name="consultancy_charge"
@@ -154,63 +154,63 @@ var emailExp = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/; //Variable t
 
 function validateform() {
     if (document.frmdoctprfl.doctorname.value == "") {
-        alert("Doctor name should not be empty..");
+        alert("O nome do médico não deve estar vazio..");
         document.frmdoctprfl.doctorname.focus();
         return false;
     } else if (!document.frmdoctprfl.doctorname.value.match(alphaspaceExp)) {
-        alert("Doctor name not valid..");
+        alert("Nome do médico inválido..");
         document.frmdoctprfl.doctorname.focus();
         return false;
     } else if (document.frmdoctprfl.mobilenumber.value == "") {
-        alert("Mobile number should not be empty..");
+        alert("O número do celular não deve estar vazio..");
         document.frmdoctprfl.mobilenumber.focus();
         return false;
     } else if (!document.frmdoctprfl.mobilenumber.value.match(numericExpression)) {
-        alert("Mobile number not valid..");
+        alert("Número de celular inválido..");
         document.frmdoctprfl.mobilenumber.focus();
         return false;
     } else if (document.frmdoctprfl.select3.value == "") {
-        alert("Department ID should not be empty..");
+        alert("O ID do departamento não deve estar vazio..");
         document.frmdoctprfl.select3.focus();
         return false;
     } else if (document.frmdoctprfl.loginid.value == "") {
-        alert("Login ID should not be empty..");
+        alert("O ID de login não deve estar vazio..");
         document.frmdoctprfl.loginid.focus();
         return false;
     } else if (!document.frmdoctprfl.loginid.value.match(alphanumericExp)) {
-        alert("loginid not valid..");
+        alert("ID de login não é válido..");
         document.frmdoctprfl.loginid.focus();
         return false;
     } else if (document.frmdoctprfl.password.value == "") {
-        alert("Password should not be empty..");
+        alert("A senha não deve estar vazia..");
         document.frmdoctprfl.password.focus();
         return false;
     } else if (document.frmdoctprfl.password.value.length < 8) {
-        alert("Password length should be more than 8 characters...");
+        alert("O comprimento da senha deve ter mais de 8 caracteres...");
         document.frmdoctprfl.password.focus();
         return false;
     } else if (document.frmdoctprfl.password.value != document.frmdoctprfl.cnfirmpassword.value) {
-        alert("Password and confirm password should be equal..");
+        alert("A senha e a senha de confirmação devem ser iguais..");
         document.frmdoctprfl.password.focus();
         return false;
     } else if (document.frmdoctprfl.education.value == "") {
-        alert("Education should not be empty..");
+        alert("A educação não deve ser vazia..");
         document.frmdoctprfl.education.focus();
         return false;
     } else if (!document.frmdoctprfl.education.value.match(alphaExp)) {
-        alert("Education not valid..");
+        alert("Educação não válida..");
         document.frmdoctprfl.education.focus();
         return false;
     } else if (document.frmdoctprfl.experience.value == "") {
-        alert("Experience should not be empty..");
+        alert("A experiência não deve ser vazia..");
         document.frmdoctprfl.experience.focus();
         return false;
     } else if (!document.frmdoctprfl.experience.value.match(numericExpression)) {
-        alert("Experience not valid..");
+        alert("Experiência não válida..");
         document.frmdoctprfl.experience.focus();
         return false;
     } else if (document.frmdoctprfl.select.value == "") {
-        alert("Kindly select the status..");
+        alert("Selecione o status..");
         document.frmdoctprfl.select.focus();
         return false;
     } else {

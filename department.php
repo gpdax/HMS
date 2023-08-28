@@ -40,7 +40,7 @@ if(isset($_GET[editid]))
 
 <div class="container-fluid">
 	<div class="block-header">
-            <h2>Add New Department </h2>
+            <h2>Adicionar novo Departamento </h2>
             
         </div>
   <div class="card">
@@ -49,11 +49,11 @@ if(isset($_GET[editid]))
     <table class="table table-hover">
       <tbody>
         <tr>
-          <td width="34%">Department Name</td>
+          <td width="34%">Nome do Departamento</td>
           <td width="66%"><input placeholder=" Enter Here " class="form-control" type="text" name="departmentname" id="departmentname" value="<?php echo $rsedit[departmentname]; ?>" /></td>
         </tr>
         <tr>
-          <td>Description</td>
+          <td>Descrição</td>
           <td><textarea placeholder=" Enter Here " class="form-control no-resize" name="textarea" id="textarea" cols="45" rows="5"><?php echo $rsedit[description] ; ?></textarea></td>
         </tr>
         <tr>
@@ -103,19 +103,19 @@ function validateform()
 {
 	if(document.frmdept.departmentname.value == "")
 	{
-		alert("Department name should not be empty..");
+		alert("O nome do departamento não deve ficar vazio..");
 		document.frmdept.departmentname.focus();
 		return false;
 	}
 	else if(!document.frmdept.departmentname.value.match(alphaExp))
 	{
-		alert("Department name not valid..");
+		alert("Nome do departamento inválido..");
 		document.frmdept.departmentname.focus();
 		return false;
 	}
 	else if(document.frmdept.select.value == "" )
 	{
-		alert("Kindly select the status..");
+		alert("Selecione o status..");
 		document.frmdept.select.focus();
 		return false;
 	}

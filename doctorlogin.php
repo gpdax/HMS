@@ -58,7 +58,7 @@ if(isset($_POST[submit]))
 ?></div>
     <div class="card-top"></div>
     <div class="card">
-        <h1 class="title"><span>Hospital Management System</span>Doctor Login <span class="msg">Hello, Doctor!</span></h1>
+        <h1 class="title"><span>Hospital Management System</span>Doctor Login <span class="msg">Olá, Doutor!</span></h1>
         <div class="col-md-12">
 
     <form method="post" action="" name="frmadminlogin" id="sign_in" onSubmit="return validateform()">
@@ -73,7 +73,7 @@ if(isset($_POST[submit]))
                 <div>
                     <div class="">
                         <input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">
-                        <label for="rememberme">Remember Me</label>
+                        <label for="rememberme">Lembre de mim</label>
                     </div>
                     <div class="text-center">
 					<input type="submit" name="submit" id="submit" value="Login" class="btn btn-raised waves-effect g-bg-cyan" /></div>
@@ -105,25 +105,25 @@ function validateform()
 {
 	 if(document.frmdoctlogin.loginid.value == "")
 	{
-		alert("Login ID should not be empty..");
+		alert("O ID de login não deve estar vazio..");
 		document.frmdoctlogin.loginid.focus();
 		return false;
 	}
 	else if(!document.frmdoctlogin.loginid.value.match(alphanumericExp))
 	{
-		alert("Login ID not valid..");
+		alert("ID de login inválido..");
 		document.frmdoctlogin.loginid.focus();
 		return false;
 	}
 	else if(document.frmdoctlogin.password.value == "")
 	{
-		alert("Password should not be empty..");
+		alert("A senha não deve estar vazia..");
 		document.frmdoctlogin.password.focus();
 		return false;
 	}
 	else if(document.frmdoctlogin.password.value.length < 8)
 	{
-		alert("Password length should be more than 8 characters...");
+		alert("O comprimento da senha deve ter mais de 8 caracteres...");
 		document.frmdoctlogin.password.focus();
 		return false;
 	}

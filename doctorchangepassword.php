@@ -19,7 +19,7 @@ if(isset($_POST[submit]))
 
 <div class="container-fluid">
     <div class="block-header">
-        <h2> Doctor's Password</h2>
+        <h2> Senha do Médico</h2>
     </div>
     <div class="row clearfix">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -27,20 +27,20 @@ if(isset($_POST[submit]))
                 <form method="post" action="" name="frmdoctchangepass" onSubmit="return validateform()"
                     style="padding: 10px">
                     <div class="form-group">
-                        <label>Old Password</label>
+                        <label>Senha antiga</label>
                         <div class="form-line">
                             <input class="form-control" type="password" name="oldpassword" id="oldpassword" />
                         </div>
                     </div>
                     <div class="form-group">
-                        <label>New Password</label>
+                        <label>Nova Senha</label>
                         <div class="form-line">
                             <input class="form-control" type="password" name="newpassword" id="newpassword" />
 
                         </div>
                     </div>
                     <div class="form-group">
-                        <label>Confirm Password</label>
+                        <label>Confirmar Senha</label>
                         <div class="form-line">
                             <input class="form-control" type="password" name="password" id="password" />
                         </div>
@@ -63,19 +63,19 @@ include("adfooter.php");
 <script type="application/javascript">
 function validateform1() {
     if (document.frmdoctchangepass.oldpassword.value == "") {
-        alert("Old password should not be empty..");
+        alert("A senha antiga não deve estar vazia..");
         document.frmdoctchangepass.oldpassword.focus();
         return false;
     } else if (document.frmdoctchangepass.newpassword.value == "") {
-        alert("New Password should not be empty..");
+        alert("A nova senha não deve estar vazia..");
         document.frmdoctchangepass.newpassword.focus();
         return false;
     } else if (document.frmdoctchangepass.newpassword.value.length < 8) {
-        alert("New Password length should be more than 8 characters...");
+        alert("O comprimento da nova senha deve ter mais de 8 caracteres...");
         document.frmdoctchangepass.newpassword.focus();
         return false;
     } else if (document.frmdoctchangepass.newpassword.value != document.frmdoctchangepass.password.value) {
-        alert(" New Password and confirm password should be equal..");
+        alert("A nova senha e a senha de confirmação devem ser iguais..");
         document.frmdoctchangepass.password.focus();
         return false;
     } else {

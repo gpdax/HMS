@@ -15,21 +15,21 @@ if(isset($_GET[delid]))
 <div class="wrapper col2">
   <div id="breadcrumb">
     <ul>
-      <li class="first">View Room</li></ul>
+      <li class="first">Ver quarto</li></ul>
   </div>
 </div>
 <div class="wrapper col4">
   <div id="container">
-    <h1>View Room details record</h1>
+    <h1>Ver registro de detalhe da sala</h1>
     <table width="200" border="3">
       <tbody>
         <tr>
-          <td width="21%">Room Type</td>
-          <td width="21%">Room Number</td>
-          <td width="30%">Number of beds</td>
-            <td width="30%">Room Tariff</td>
+          <td width="21%">Tipo do Quarto</td>
+          <td width="21%">Número da Sala</td>
+          <td width="30%">Número da Cama</td>
+            <td width="30%">Valor do Quarto </td>
           <td width="14%">Status</td>
-          <td width="14%">Action</td>
+          <td width="14%">Ação</td>
         </tr>
           <?php
 		$sql ="SELECT * FROM room";
