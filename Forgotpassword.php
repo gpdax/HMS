@@ -5,12 +5,12 @@ include("header.php");
 <div class="wrapper col2">
   <div id="breadcrumb">
     <ul>
-      <li class="first">Adicionar nova senha esquecida</li></ul>
+      <li class="first">Add New Forgot Password</li></ul>
   </div>
 </div>
 <div class="wrapper col4">
   <div id="container">
-    <h1>Adicione novo registro esqueci senha</h1>
+    <h1>Add new Forgot Password record</h1>
     <table width="200" border="3">
       <tbody>
         <tr>
