@@ -1,4 +1,3 @@
-
 <?php
 
 include("adheader.php");
@@ -33,7 +32,7 @@ if(!isset($_SESSION[doctorid]))
         <div class="info-box-4 hover-zoom-effect">
           <div class="icon"> <i class="zmdi zmdi-account col-blue"></i> </div>
           <div class="content">
-            <div class="text">Nova Consulta</div>
+            <div class="text">New Appoiment</div>
             <div class="number"><?php
             $sql = "SELECT * FROM appointment WHERE `doctorid`=1 AND appointmentdate=' ".date("Y-m-d")."'";
             $qsql = mysqli_query($con,$sql);
@@ -46,7 +45,7 @@ if(!isset($_SESSION[doctorid]))
         <div class="info-box-4 hover-zoom-effect">
           <div class="icon"> <i class="zmdi zmdi-account col-green"></i> </div>
           <div class="content">
-            <div class="text">Número do Paciente</div>
+            <div class="text">Number of Patient</div>
             <div class="number"><?php
             $sql = "SELECT * FROM patient WHERE status='Active'";
             $qsql = mysqli_query($con,$sql);
@@ -59,7 +58,7 @@ if(!isset($_SESSION[doctorid]))
         <div class="info-box-4 hover-zoom-effect">
           <div class="icon"> <i class="zmdi zmdi-bug col-blush"></i> </div>
           <div class="content">
-            <div class="text">Consultas de hoje</div>
+            <div class="text">Today's Appoinment</div>
             <div class="number">
               <?php
               $sql = "SELECT * FROM appointment WHERE status='Active' AND `doctorid`=1 AND appointmentdate=' ".date("Y-m-d")."'" ;
@@ -74,7 +73,7 @@ if(!isset($_SESSION[doctorid]))
         <div class="info-box-4 hover-zoom-effect">
           <div class="icon"> <i class="zmdi zmdi-balance col-cyan"></i> </div>
           <div class="content">
-            <div class="text">Ganhos totais</div>
+            <div class="text">Total Earning Earning</div>
             <div class="number">₱ 
               <?php 
               $sql = "SELECT sum(bill_amount) as total  FROM `billing_records` WHERE `bill_type` = 'Consultancy Charge'" ;
