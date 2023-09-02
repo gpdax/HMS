@@ -5,15 +5,15 @@ include("header.php");
 <div class="wrapper col2">
   <div id="breadcrumb">
     <ul>
-      <li class="first">Você está aqui</li>
+      <li class="first">You Are Here</li>
       <li>&#187;</li>
-      <li><a href="#">Principal</a></li>
+      <li><a href="#">Home</a></li>
       <li>&#187;</li>
-      <li><a href="#">Avô</a></li>
+      <li><a href="#">Grand Parent</a></li>
       <li>&#187;</li>
-      <li><a href="#">Paciente</a></li>
+      <li><a href="#">Parent</a></li>
       <li>&#187;</li>
-      <li class="current"><a href="#">Criança</a></li>
+      <li class="current"><a href="#">Child</a></li>
     </ul>
   </div>
 </div>
