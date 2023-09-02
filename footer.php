@@ -1,12 +1,12 @@
-  <footer class="footer-2">
+ <footer class="footer-2">
     <div class="container">
       <div class="row"> 
         
         <!-- Support -->
         <div class="col-sm-7">
-          <h6>Sobre Nós</h6>
+          <h6>About Us</h6>
           <div class="about-foot">
-            <p> Um Sistema de Gestão Hospitalar (HMS) refere-se a um sistema projetado para gerenciar dados de saúde. Isto inclui sistemas que recolhem, armazenam, gerem e transmitem o registo médico eletrónico (EMR) de um paciente, a gestão operacional de um hospital ou um sistema de apoio a decisões de políticas de saúde. </p>
+            <p> A Hospital Management System (HMS) refers to a system designed to manage healthcare data. This includes systems that collect, store, manage and transmit a patient’s electronic medical record (EMR), a hospital’s operational management or a system supporting healthcare policy decisions. </p>
           </div>
         </div>
         
@@ -27,7 +27,7 @@
   <!-- Rights -->
   <div class="rights style-2">
     <div class="container">
-      <p>© 2022 Hospital Management System | Desenvolvido por: <strong><span></span><a href="https://www.itsourcecode.com/" style="color: white">Matheus</a></span></strong>  </p>
+      <p>© 2022 Hospital Management System | Developed By: <strong><span></span><a href="https://www.itsourcecode.com/" style="color: white">Matheus</a></span></strong>  </p>
     </div>
   </div>
   
