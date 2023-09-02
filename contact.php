@@ -11,9 +11,9 @@
       <div class="container"> 
         <!-- Tittle -->
         <div class="heading-block">
-          <h4>Contate-nos</h4>
+          <h4>CONTACT US</h4>
           <hr>
-          <span>Obrigado por escolher o HMS para suas necessidades de saúde. Estamos aqui para atendê-lo e oferecer o melhor atendimento possível. Por favor, encontre nossas informações de contato abaixo:. </span> </div>
+          <span>Thank you for considering HMS for your healthcare needs. We are here to assist you and provide the best possible care. Please find our contact information below:. </span> </div>
         <div class="contact">
           <div class="contact-form"> 
             <!-- FORM  -->
