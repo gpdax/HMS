@@ -243,6 +243,57 @@ if(isset($_GET[editid]))
 <script type="application/javascript">
 function validateform() {
     if (document.frmappnt.select4.value == "") {
+        alert("Patient name should not be empty..");
+        document.frmappnt.select4.focus();
+        return false;
+    } else if (document.frmappnt.select3.value == "") {
+        alert("Room type should not be empty..");
+        document.frmappnt.select3.focus();
+        return false;
+    } else if (document.frmappnt.select5.value == "") {
+        alert("Department name should not be empty..");
+        document.frmappnt.select5.focus();
+        return false;
+    } else if (document.frmappnt.appointmentdate.value == "") {
+        alert("Appointment date should not be empty..");
+        document.frmappnt.appointmentdate.focus();
+        return false;
+    } else if (document.frmappnt.time.value == "") {
+        alert("Appointment time should not be empty..");
+        document.frmappnt.time.focus();
+        return false;
+    } else if (document.frmappnt.select6.value == "") {
+        alert("Doctor name should not be empty..");
+        document.frmappnt.select6.focus();
+        return false;
+    } else if (document.frmappnt.select.value == "") {
+        alert("Kindly select the status..");
+        document.frmappnt.select.focus();
+        return false;
+    } else {
+        return true;
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php include 'adfooter.php'; ?>
+<script type="application/javascript">
+function validateform() {
+    if (document.frmappnt.select4.value == "") {
         alert("O nome do paciente não deve ficar vazio..");
         document.frmappnt.select4.focus();
         return false;
