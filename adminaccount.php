@@ -18,7 +18,7 @@ if(!isset($_SESSION[adminid]))
 <div class="container-fluid">
     <div class="block-header">
         <h2>Dashboard</h2>
-        <small class="text-muted">Bem-vindo ao Painel do Administrador</small>
+        <small class="text-muted">Welcome to Admin Panel</small>
     </div>
 
 
@@ -102,3 +102,4 @@ if(!isset($_SESSION[adminid]))
 <?php
 include("adfooter.php");
 ?>
+
