@@ -81,37 +81,37 @@ function validateform()
 	
 	if(document.frmappntdetail.select.value == "")
 	{
-		alert("O tipo de compromisso não deve estar vazio..");
+		alert("Appointment type should not be empty..");
 		document.frmappntdetail.select.focus();
 		return false;
 	}
 	else if(document.frmappntdetail.select2.value == "")
 	{
-		alert("O tipo de quarto não deve estar vazio..");
+		alert("Room type should not be empty..");
 		document.frmappntdetail.select2.focus();
 		return false;
 	}
 	else if(document.frmappntdetail.select3.value == "")
 	{
-		alert("O nome do departamento não deve ficar vazio..");
+		alert("Department name should not be empty..");
 		document.frmappntdetail.select3.focus();
 		return false;
 	}
 	else if(document.frmappntdetail.date.value == "")
 	{
-		alert("A data do agendamento não deve estar vazia..");
+		alert("Appointment date should not be empty..");
 		document.frmappntdetail.date.focus();
 		return false;
 	}
 	else if(document.frmappntdetail.time.value == "")
 	{
-		alert("O horário da consulta não deve ficar vazio..");
+		alert("Appointment time should not be empty..");
 		document.frmappntdetail.time.focus();
 		return false;
 	}
 	else if(document.frmappntdetail.select5.value == "")
 	{
-		alert("O nome do médico não deve estar vazio..");
+		alert("Doctor name should not be empty..");
 		document.frmappntdetail.select5.focus();
 		return false;
 	}
