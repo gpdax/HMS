@@ -131,26 +131,26 @@ function validateform()
 {
 	if(document.frmdocttimings.select2.value == "")
 	{
-		alert("o nome do médico não deve estar vazio..");
+		alert("doctor name should not be empty..");
 		document.frmdocttimings.select2.focus();
 		return false;
 	}
 	else if(document.frmdocttimings.ftime.value == "")
 	{
-		alert("tempo não deve estar vazio..");
+		alert("from time should not be empty..");
 		document.frmdocttimings.ftime.focus();
 		return false;
 	}
 	else if(document.frmdocttimings.ttime.value == "")
 	{
-		alert("o tempo não deve estar vazio..");
+		alert("To time should not be empty..");
 		document.frmdocttimings.ttime.focus();
 		return false;
 	}
 	
 	else if(document.frmdocttimings.select.value == "" )
 	{
-		alert("Selecione o status..");
+		alert("Kindly select the status..");
 		document.frmdocttimings.select.focus();
 		return false;
 	}
