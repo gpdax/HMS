@@ -50,12 +50,12 @@ if(isset($_GET[editid]))
 
 <div class="card ">
  
-    <h2>Processo de aprovação de registro de compromisso</h2>
+    <h2>Appointment record Approval Process</h2>
    <form method="post" action="" name="frmappnt" onSubmit="return validateform()">
   
     <table class="table table-striped">                
         <tr>
-          <td >Paciente</td>
+          <td >Patient</td>
           <td >
             <?php
 			if(isset($_GET[patientid]))
@@ -82,7 +82,7 @@ if(isset($_GET[editid]))
         </tr>
 
         <tr>
-          <td>Departamento</td>
+          <td>Department</td>
           <td><select name="select5" id="select5" class="form-control show-tick">
            <option value="">Select</option>
             <?php
@@ -105,7 +105,7 @@ if(isset($_GET[editid]))
         </tr>
 		
         <tr>
-          <td>Médico</td>
+          <td>Doctor</td>
           <td><select name="select6" id="select6" class="form-control show-tick">
             <option value="">Select</option>
             <?php
@@ -127,15 +127,15 @@ if(isset($_GET[editid]))
         </tr>
 		
         <tr>
-          <td>Data do agendamento</td>
+          <td>Appointment Date</td>
           <td><input class="form-control" type="date" name="appointmentdate" id="appointmentdate" value="<?php echo $rsedit[appointmentdate]; ?>" /></td>
         </tr>
         <tr>
-          <td>Horário do agendamento</td>
+          <td>Appointment Time</td>
           <td><input class="form-control" type="time" name="time" id="time" value="<?php echo $rsedit[appointmenttime]; ?>" /></td>
         </tr>
         <tr>
-          <td>Motivo da consulta</td>
+          <td>Appointment reason</td>
           <td><input class="form-control" name="appreason" id="appreason" value="<?php echo $rsedit[app_reason]; ?>"/></td>         
         </tr>
         <tr>
@@ -157,43 +157,43 @@ function validateform()
 {
 	if(document.frmappnt.select4.value == "")
 	{
-		alert("O nome do paciente não deve ficar vazio..");
+		alert("Patient name should not be empty..");
 		document.frmappnt.select4.focus();
 		return false;
 	}
 	else if(document.frmappnt.select3.value == "")
 	{
-		alert("O tipo de quarto não deve estar vazio..");
+		alert("Room type should not be empty..");
 		document.frmappnt.select3.focus();
 		return false;
 	}
 	else if(document.frmappnt.select5.value == "")
 	{
-		alert("nome do departamento não deve ficar vazio..");
+		alert("Department name should not be empty..");
 		document.frmappnt.select5.focus();
 		return false;
 	}
 	else if(document.frmappnt.appointmentdate.value == "")
 	{
-		alert("A data do agendamento não deve estar vazia..");
+		alert("Appointment date should not be empty..");
 		document.frmappnt.appointmentdate.focus();
 		return false;
 	}
 	else if(document.frmappnt.time.value == "")
 	{
-		alert("O horário da consulta não deve ficar vazio..");
+		alert("Appointment time should not be empty..");
 		document.frmappnt.time.focus();
 		return false;
 	}
 	else if(document.frmappnt.select6.value == "")
 	{
-		alert("O nome do médico não deve estar vazio..");
+		alert("Doctor name should not be empty..");
 		document.frmappnt.select6.focus();
 		return false;
 	}
 	else if(document.frmappnt.select.value == "" )
 	{
-		alert("Selecione o status..");
+		alert("Kindly select the status..");
 		document.frmappnt.select.focus();
 		return false;
 	}
