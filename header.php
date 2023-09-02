@@ -62,10 +62,11 @@ $tim = date("H:i:s");
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <p>Bem-vindo ao Hospital Management System</p>
+          <p>Welcome To Hospital Management System</p>
         </div>
         <div class="col-sm-6">
           <div class="social-icons"> <a href="https://www.facebook.com/helondrina/?locale=pt_BR"><i class="fa fa-facebook"></i></a> <a href="https://www.einstein.br/Pages/Home.aspx"><i class="fa fa-dribbble"></i></a> </div>
+        </div>
       </div>
     </div>
   </div>
@@ -102,15 +103,15 @@ $tim = date("H:i:s");
         <!-- NAV -->
         <div class="collapse navbar-collapse" id="nav-open-btn">
           <ul class="nav">
-            <li> <a href="index.php">Pricipal </a></li>
-            <li><a href="about.php">Sobre</a></li>            
-            <li><a href="patientappointment.php">Consultas </a></li>
-            <li><a href="contact.php">Contato </a></li>
+            <li> <a href="index.php">Home </a></li>
+            <li><a href="about.php">About</a></li>            
+            <li><a href="patientappointment.php">Appointment </a></li>
+            <li><a href="contact.php">Contact </a></li>
             <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Log In </a>
               <ul class="dropdown-menu multi-level" style="display: none;">
                 <li><a href="adminlogin.php">Admin</a></li>
-                <li><a href="doctorlogin.php">Médico</a></li>
-                <li><a href="patientlogin.php">Paciente </a></li>
+                <li><a href="doctorlogin.php">Doctor</a></li>
+                <li><a href="patientlogin.php">Patient </a></li>
                 
               </ul>
             </li>           
